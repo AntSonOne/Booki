@@ -1,6 +1,35 @@
-img {
+/* img {
   max-width: 100%;
-  }
+  } */
+
+/****** Header ***********/
+header {
+  height: 79px;
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-between
+}
+
+header img {
+  padding-top: 14px;
+  padding-bottom: 30px;
+  width: 61.09px;
+  height: 19px
+}
+
+.header-link {
+  padding-top: 16px;
+  margin-left: 50px;
+  text-decoration: none;
+  color: black;
+  align-items: end
+}
+
+.header-link:hover{
+  border-top-style: solid;
+  border-top-color: #0065FC;
+  color: #0065FC
+}
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
