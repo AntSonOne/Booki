@@ -148,8 +148,27 @@ body {
     margin-bottom: 5px;
 }
 
+/****** Footer ***********/
 
+footer {
+  margin-top: 65px;
+  padding: 2px 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #F2F2F2
+}
 
+.footer-box {
+  box-sizing: inherit;
+}
+
+.footer-title {
+  font-size: 18px;
+}
+
+.footer-subtitle {
+  font-size: 16px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
