@@ -108,7 +108,7 @@ header img {
   margin: 0;
 }
 
-/****** Recherche ***********/
+/****** Search ***********/
 
 .search-bar {
   display: flex;
@@ -178,7 +178,12 @@ header img {
   padding-right: 16px;
 }
 
+/****** Infos ***********/
+
 .info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   padding-top: 37.5px;
   padding-bottom: 37.5px;
   margin: 0;
@@ -341,13 +346,19 @@ footer {
 
 /****** Media queries ***********/
 
+/****** Large screen ***********/
+
 @media (min-width: 1500px) {
   .main-container {
     padding: 0 230px;
   }
 }
 
+/****** Tablette ***********/
+
 @media (max-width: 1024px) {
+
+/****** Filtres ***********/
 
   .filtres {
     display: grid;
@@ -362,15 +373,22 @@ footer {
 
   .btn {
     font-size: 16px;
+    min-width: max-content;
   }
+
+/****** Hebergements and Populaires ***********/
 
   .hebergements-and-populaires {
     flex-direction: column;
   }
 
+/****** Hebergements ***********/
+
   .hebergements {
     width: 100%;
   }
+
+/****** Populaires ***********/
 
   .populaires {
     width: 100%;
@@ -405,12 +423,17 @@ footer {
   }
 }
 
-/* Styles for small screens */
+/****** Mobile ***********/
+
 @media (max-width: 768px) {
+
+/****** General ***********/
 
   .main-container {
     padding: 0 25px;
   }
+
+/****** Header ***********/
 
   header {
     display: grid;
@@ -449,6 +472,8 @@ footer {
     border-bottom-width: 100%;
   }
 
+/****** Search ***********/
+
   .logo {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -466,6 +491,18 @@ footer {
   .search-bar button i {
     display: contents;
     color: #FFFFFF;
+  }
+
+/****** Filtres ***********/
+
+  .btn {
+    font-size: 14px;
+    min-width: 150px;
+    padding: 17px auto;
+  }
+
+  .btn i {
+    padding-right: 10px;
   }
 
   .one {
@@ -493,19 +530,13 @@ footer {
     grid-row-start: 3;
   }
 
-  .btn {
-    font-size: 14px;
-    min-width: 150px;
-    padding: 17px auto;
-  }
-
-  .btn i {
-    padding-right: 10px;
-  }
+/****** Hebergements and Populaires ***********/
 
   .hebergements-and-populaires {
     flex-direction: column;
   }
+
+/****** Hebergements ***********/
 
   .hebergements {
     width: 100%;
@@ -518,6 +549,8 @@ footer {
     justify-content: space-between;
   }
 
+/****** Populaires ***********/
+
   .populaires {
     width: 100%;
     margin-top: 30px; /* adjust margin top as needed */
@@ -529,6 +562,8 @@ footer {
     justify-content: space-between;
   }
 
+/****** Activités ***********/
+
   .activités-cards {
     width: 100%;
     display: flex;
@@ -539,6 +574,8 @@ footer {
   .activités-cards img{
     height: 141px;
   }
+
+/****** Footer ***********/
 
   footer {
     display: flex;
