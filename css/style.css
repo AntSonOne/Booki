@@ -429,7 +429,12 @@ footer {
 
 /****** General ***********/
 
-  .main-container {
+  .main-container{
+    padding: 0;
+    margin: 0;
+  }
+
+  main {
     padding: 0 25px;
   }
 
