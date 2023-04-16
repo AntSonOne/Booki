@@ -351,13 +351,13 @@ footer {
 
   .filtres {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
   }
 
   .filtres h3 {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 5;
   }
 
   .btn {
@@ -425,8 +425,20 @@ footer {
     margin: 0 auto;
   }
 
+  nav {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    width: 100%;
+  }
+
   .header-link {
     padding-bottom: 15px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
   }
 
   .header-link:hover{
@@ -456,10 +468,29 @@ footer {
     color: #FFFFFF;
   }
 
-  .filtres {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+  .one {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+  }
+
+  .two {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+  }
+
+  .three {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+  }
+
+
+  .four {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
   }
 
   .btn {
