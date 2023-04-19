@@ -44,10 +44,6 @@ main {
   padding: 0 50px;
 }
 
-footer {
-  padding: 0 50px;
-}
-
 .section-title {
   margin: 0;
   font-size: 22px;
@@ -346,7 +342,7 @@ header img {
 /****** Footer ***********/
 
 footer {
-  margin-top: 65px;
+  margin: 65px 50px 0;
   padding: 2px 20px;
   display: grid;
   grid-template-rows: auto;
