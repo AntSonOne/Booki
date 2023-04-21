@@ -233,6 +233,10 @@ header {
   gap: 30px;
 }
 
+.hebergements-cards .card{
+  height: 100%;
+}
+
 .hebergements-cards img {
   width: 100%;
   height: 116px;
@@ -310,6 +314,7 @@ header {
 
 .activités-cards .card {
   padding: 0;
+  height: 100%;
 }
 
 .activités-cards .card-title {
@@ -331,11 +336,14 @@ header {
 
 footer {
   margin: 65px 50px 0 50px;
-  padding: 20px;
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: repeat(3, 1fr);
   background-color: var(--main-bg-color);
+}
+
+.footer-box {
+  padding: 20px;
 }
 
 footer .card-title-larger {
@@ -416,11 +424,9 @@ footer .card-title-larger {
 /****** Activites ***********/
 
   .activités-cards .card-content{
-    height: 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 16px;
     }
 
   .activités-cards img{
@@ -601,6 +607,7 @@ footer .card-title-larger {
 /****** Footer ***********/
 
   footer {
+    margin: 65px 0 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
