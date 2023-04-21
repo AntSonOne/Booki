@@ -53,8 +53,8 @@ main {
 .card {
   background-color: white;
   border-radius: 20px;
-  padding: 5px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  padding: 5px;
 }
 
 .card img {
@@ -233,6 +233,9 @@ header {
   grid-template-rows: auto;
   gap: 30px;
 }
+.hebergements-cards .card{
+  height: 100%;
+}
 
 .hebergements-cards img {
   width: 100%;
@@ -268,6 +271,7 @@ header {
 .populaires-cards .card {
   display: flex;
   margin-top: 30px;
+  padding: 5px;
 }
 
 .populaires-cards img {
@@ -353,14 +357,6 @@ footer .card-title-larger {
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
-
-/****** Large screen ***********/
-
-@media (min-width: 1500px) {
-  .main-container {
-    padding: 0 230px;
-  }
-}
 
 /****** Tablette ***********/
 
