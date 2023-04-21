@@ -27,6 +27,7 @@ img {
 body {
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 a {
@@ -485,11 +486,6 @@ footer .card-title-larger {
 
 
 /****** Search ***********/
-
-  .search-bar {
-    display: flex;
-    justify-content: center;
-  }
 
   .search-bar button {
     border-radius: 15px;
