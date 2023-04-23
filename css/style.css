@@ -84,8 +84,8 @@ main {
 /****** Header ***********/
 header {
   margin: 0 30px;
-  padding-top: 16px;
-  padding-bottom: 30px;
+  padding-top: 18px;
+  padding-bottom: 28px;
   display: flex;
   justify-content: space-between;
 }
